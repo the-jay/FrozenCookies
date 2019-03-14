@@ -60,7 +60,7 @@ FrozenCookies.preferenceValues = {
     },
     'blacklist':{
         'hint':'Blacklist purchases from the efficiency calculations',
-        'display':['No Blacklist', 'Speedrun Blacklist', 'Hardcore Blacklist', 'Grandmapocalypse Mode', 'No Buildings'],
+        'display':['No Blacklist', 'Speedrun Blacklist', 'Hardcore Blacklist', 'Grandmapocalypse Mode', 'No Buildings', 'Godzamok'],
         'default':0
     },
 /*  'timeTravelMethod':{
