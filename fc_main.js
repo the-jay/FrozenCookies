@@ -1344,7 +1344,6 @@ function buildingStats(recalculate) {
         var buildingBlacklist = blacklist[FrozenCookies.blacklist].buildings;
         var currentBank = bestBank(0).cost;
         FrozenCookies.caches.buildings = Game.ObjectsById.map(function(current, index) {
-        		console.log(current.id);
             if (buildingBlacklist === true || _.contains(buildingBlacklist, current.id)) {
                 return null;
             }
