@@ -13,10 +13,10 @@
                     Game.tooltip.dynamic=1;
                     Game.tooltip.draw(this, Game.ObjectsById[7].minigame.spellTooltip(1)()
                                       + '<div class="line"></div><div class="description">'
-                                      + '<b>First Spell:</b> ' + nextSpell(0) + '<br />'
-                                      + '<b>Second Spell:</b> ' + nextSpell(1) + '<br />'
-                                      + '<b>Third Spell:</b> ' + nextSpell(2) + '<br />'
-                                      + '<b>Fourth Spell:</b> ' + nextSpell(3) +'</div>','this');
+                                      + '<b>Last Spell:</b> ' + nextSpell(3) + '<br />'
+                                      + '<b>Next Spell:</b> ' + nextSpell(4) + '<br />'
+                                      + '<b>Then:</b> ' + nextSpell(5) + '<br />'
+                                      + '<b>Then:</b> ' + nextSpell(6) +'</div>','this');
                     Game.tooltip.wobble();};
                 clearInterval(lookup);
             }
