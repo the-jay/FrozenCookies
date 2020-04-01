@@ -488,7 +488,7 @@ function updateTimers() {
     t_draw.push({
       f_percent: purchaseCompletion,
       c1: 'rgba(17, 17, 17, 1)',
-      name: nextPurchase().name + 'Completion Time',
+      name: nextPurchase().name + ' Completion Time',
       display: timeDisplay(
         divCps(Math.max(purchaseTotal + bankTotal - Game.cookies, 0), actualCps)
       )
