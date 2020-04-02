@@ -2796,9 +2796,8 @@ function autoCookie() {
       FrozenCookies.autoBuy &&
       (Game.cookies >= delay + recommendation.cost ||
         recommendation.purchase.name == 'Elder Pledge') &&
-      (FrozenCookies.pastemode ||
-        isFinite(nextChainedPurchase().efficiency) ||
-        !Game.hasBuff('Devastation'))
+      (FrozenCookies.pastemode || isFinite(nextChainedPurchase().efficiency)) &&
+      !Game.hasBuff('Devastation')
     ) {
       //    if (FrozenCookies.autoBuy && (Game.cookies >= delay + recommendation.cost)) {
       //console.log('something should get bought');
